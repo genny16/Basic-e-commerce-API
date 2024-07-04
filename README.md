@@ -8,7 +8,7 @@ This project is a basic e-commerce API built with Node.js, Express, Mongoose, an
 - [API Endpoints](#api-endpoints)
 - [Models](#models)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Installation
 To get started, clone the repository and install the dependencies:
