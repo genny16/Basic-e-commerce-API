@@ -1,7 +1,14 @@
 # Basic-e-commerce-API
 
 This project is a basic e-commerce API built with Node.js, Express, Mongoose, and MongoDB. It provides various endpoints to manage products, users, and orders for an e-commerce platform.
+## Table of Contents
 
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Endpoints](#api-endpoints)
+- [Models](#models)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Installation
 To get started, clone the repository and install the dependencies:
@@ -22,6 +29,12 @@ By default, the server will start on http://localhost:3000
 
 # API Endpoints
 ## Users
+ ## Products
+#### to be continued ...
+# Models
+## User
+#### to be continued ...
+## Product
 #### to be continued ...
 
 ## Contributing
