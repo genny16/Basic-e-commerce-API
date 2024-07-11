@@ -1,0 +1,46 @@
+{
+  "name": "basic-e-commerce-api",
+  "version": "1.0.0",
+  "description": "\"simple e-commerce-api\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genny16/Basic-e-commerce-API.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "Nessal zakaria rachid",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^7.0.0",
+    "express": "^4.16.4",
+    "express-mongo-sanitize": "^1.3.2",
+    "express-rate-limit": "^3.5.0",
+    "helmet": "^3.16.0",
+    "hpp": "^0.2.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.5.2",
+    "morgan": "^1.9.1",
+    "nodemailer": "^6.1.1",
+    "nodemon": "^3.1.4",
+    "validator": "^10.11.0",
+    "xss-clean": "^0.1.1"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/genny16/Basic-e-commerce-API/issues"
+  },
+  "homepage": "https://github.com/genny16/Basic-e-commerce-API#readme"
+}
