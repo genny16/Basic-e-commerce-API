@@ -10,7 +10,10 @@ const AppError = require("./utils/appError");
 const globalErrorHandler = require("./controllers/errorController");
 
 const userRouter = require("./routes/userRoutes");
-
+const productRouter = require("./routes/productRoutes");
+const reviewRouter = require('./routes/reviewRoutes');
+const orderRouter = require('./routes/orderRoutes');
+const order_linesRouter = require('./routes/order_linesRoutes');
 const app = express();
 
 // 1) GLOBAL MIDDLEWARES
@@ -59,7 +62,10 @@ app.use((req, res, next) => {
 // 3) ROUTES
 
 app.use("/api/v1/users", userRouter);
-
+app.use("/api/v1/products", productRouter);
+app.use('/api/v1/reviews', reviewRouter);
+app.use('/api/v1/orders', orderRouter);
+app.use('/api/v1/order_lines', order_linesRouter);
 app.all("*", (req, res, next) => {
   next(new AppError(`Can't find ${req.originalUrl} on this server!`, 404));
 });
